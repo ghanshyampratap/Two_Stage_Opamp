@@ -1,6 +1,6 @@
-# 🧪 Two-Stage CMOS Operational Amplifier – 90nm | Cadence Virtuoso
+#  Two-Stage CMOS Operational Amplifier – 90nm | Cadence Virtuoso
 
-## 📝 Abstract
+##  Abstract
 This project presents the design and simulation of a **two-stage CMOS operational amplifier** implemented in **90nm CMOS technology** using **Cadence Virtuoso**.  
 The op-amp operates at **1.2 V** supply and targets:
 
@@ -22,7 +22,7 @@ Simulation results confirm that the amplifier meets design goals and is suitable
 
 ---
 
-## 📘 Introduction
+##  Introduction
 Operational amplifiers are essential building blocks in analog and mixed-signal ICs, used in:
 
 - Amplification  
@@ -33,7 +33,7 @@ Operational amplifiers are essential building blocks in analog and mixed-signal 
 With CMOS technology scaling down, low-voltage operation becomes challenging due to reduced headroom and limited gain.  
 This project addresses these challenges by designing a **two-stage CMOS op-amp** using **90nm GPDK** in Cadence Virtuoso.
 
-### 🎯 Primary Design Goals
+###  Primary Design Goals
 - 80 dB open-loop gain  
 - 20 MHz gain-bandwidth product  
 - 10 V/μs slew rate  
@@ -45,16 +45,16 @@ The amplifier uses a differential first stage and high-gain second stage with Mi
 
 ---
 
-## 🧩 TWO-STAGE OPAMP ARCHITECTURE
+##  TWO-STAGE OPAMP ARCHITECTURE
 
-### 🖼️ <img width="1502" height="760" alt="image" src="https://github.com/user-attachments/assets/925b3467-c323-42b3-8c0f-3504f6907f9c" />
+###  <img width="1502" height="760" alt="image" src="https://github.com/user-attachments/assets/925b3467-c323-42b3-8c0f-3504f6907f9c" />
 
 ---
 
-## ⚙️ Working
+##  Working
 The amplifier is designed using **90nm CMOS technology** and consists of:
 
-### 🔧 Key Components
+###  Key Components
 - **M3, M4** – PMOS differential pair  
 - **M1, M2** – NMOS current mirror load  
 - **M5** – NMOS tail current source (6 μA)  
@@ -63,7 +63,7 @@ The amplifier is designed using **90nm CMOS technology** and consists of:
 - **M8** – PMOS current mirror for biasing  
 - **Cc** – 400 fF Miller compensation capacitor  
 
-### 🔍 Working Principle
+###  Working Principle
 - PMOS differential pair amplifies input difference  
 - NMOS current mirror converts differential current to voltage  
 - Second-stage NMOS (M7) boosts gain and drives the output  
@@ -74,7 +74,7 @@ The amplifier is designed using **90nm CMOS technology** and consists of:
 
 ---
 
-## 📊 Design Table
+##  Design Table
 
 | Parameter | Value |
 |----------|-------|
@@ -88,12 +88,12 @@ The amplifier is designed using **90nm CMOS technology** and consists of:
 
 ---
 
-## 📈 Simulation Results
+##  Simulation Results
 
-### 🖼️ *Bode Plot (AC Response)*  
+###  *Bode Plot (AC Response)*  
 <img width="1337" height="451" alt="image" src="https://github.com/user-attachments/assets/17080373-42ec-48dd-ba88-519e8974c060" />
 
-### 📌 Extracted Performance
+###  Extracted Performance
 - **Open-loop Gain:** 74.65 dB  
 - **GBW:** 21 MHz  
 - **Phase Margin:** 52°  
@@ -105,10 +105,10 @@ These values indicate:
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 A **two-stage CMOS operational amplifier** was successfully designed and simulated using **90nm CMOS technology** in Cadence Virtuoso.
 
-### ✔ Achieved Results
+###  Achieved Results
 - 74.65 dB open-loop gain  
 - 21 MHz gain-bandwidth product  
 - 52° phase margin  
@@ -125,7 +125,7 @@ The design meets performance requirements for:
 
 ---
 
-## 📚 References
+##  References
 1. R. Jacob Baker, *CMOS: Circuit Design, Layout, and Simulation*, 3rd Ed., Wiley  
 2. N. Weste & D. Harris, *CMOS VLSI Design*, 4th Ed., Pearson  
 3. K. Roy et al., “Leakage Current Mechanisms…”, IEEE, 2003  
